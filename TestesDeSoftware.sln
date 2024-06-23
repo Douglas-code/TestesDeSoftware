@@ -5,15 +5,17 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Testes Basicos", "1.1 - Testes Basicos", "{69C5DFBD-2C33-49E7-98E0-2E5AB0EEA8C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "01 - Testes de Unidade\Demo\Demo.csproj", "{42A4113D-1390-4679-940E-0D5FB2290AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "01 - Testes de Unidade\Demo\Demo.csproj", "{42A4113D-1390-4679-940E-0D5FB2290AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Tests", "01 - Testes de Unidade\Demo.Tests\Demo.Tests.csproj", "{6AA34926-3EF0-418A-943A-7EB868F03CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Tests", "01 - Testes de Unidade\Demo.Tests\Demo.Tests.csproj", "{6AA34926-3EF0-418A-943A-7EB868F03CBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Features", "2.2 - Features", "{FE311350-89E6-4832-9A73-06C5AA00829D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features", "02 -Features\Features\Features.csproj", "{4C7E1B5C-07BD-4CD9-8DD1-317EB9B18A73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Features", "01 - Testes de Unidade\Features\Features.csproj", "{4C7E1B5C-07BD-4CD9-8DD1-317EB9B18A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features.Tests", "02 -Features\Features.Tests\Features.Tests.csproj", "{17F1B1E6-7110-4209-9692-B5C63C68A308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Features.Tests", "01 - Testes de Unidade\Features.Tests\Features.Tests.csproj", "{17F1B1E6-7110-4209-9692-B5C63C68A308}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Testes de Unidade", "01 - Testes de Unidade", "{C729FD86-F617-4233-A4AB-6B46CCC1ED64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,8 +44,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{69C5DFBD-2C33-49E7-98E0-2E5AB0EEA8C6} = {C729FD86-F617-4233-A4AB-6B46CCC1ED64}
 		{42A4113D-1390-4679-940E-0D5FB2290AA2} = {69C5DFBD-2C33-49E7-98E0-2E5AB0EEA8C6}
 		{6AA34926-3EF0-418A-943A-7EB868F03CBA} = {69C5DFBD-2C33-49E7-98E0-2E5AB0EEA8C6}
+		{FE311350-89E6-4832-9A73-06C5AA00829D} = {C729FD86-F617-4233-A4AB-6B46CCC1ED64}
 		{4C7E1B5C-07BD-4CD9-8DD1-317EB9B18A73} = {FE311350-89E6-4832-9A73-06C5AA00829D}
 		{17F1B1E6-7110-4209-9692-B5C63C68A308} = {FE311350-89E6-4832-9A73-06C5AA00829D}
 	EndGlobalSection
